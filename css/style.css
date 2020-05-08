@@ -1,0 +1,19 @@
+body {
+  background-color: #eb6383;
+}
+
+h1 {
+  color: #fa9191;
+  font-size: 200px;
+}
+
+.mybox {
+  border: 1px solid black;
+  box-sizing: border-box;
+  padding: 5px;
+  width: 100px;
+}
+
+h2 {
+  font-size: 20px;
+}
