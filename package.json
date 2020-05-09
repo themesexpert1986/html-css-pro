@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/themesexpert1986/html-css-pro/issues"
   },
-  "homepage": "https://github.com/themesexpert1986/html-css-pro#readme"
+  "homepage": "https://github.com/themesexpert1986/html-css-pro#readme",
+  "dependencies": {
+    "update": "^0.7.4"
+  }
 }

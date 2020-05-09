@@ -1,19 +1,83 @@
 body {
-  background-color: #eb6383;
+    background-color: white;
 }
 
+/**** Linter:  Will hurt your feelings*
+(And help you code better)****/
+/*
+1- 😁 SEPARATION OF STRUCTURE FROM SKIN
+2- 😃 SEPARATION OF CONTAINERS AND CONTENT
+*/
+/********************  Tag Selector  **********************/
 h1 {
-  color: #fa9191;
-  font-size: 200px;
+    color: #fa9191;
+    font-size: 200px;
+}
+
+h1:hover {
+    border: 1px dashed blue;
+    color: gray;
 }
 
 .mybox {
-  border: 1px solid black;
-  box-sizing: border-box;
-  padding: 5px;
-  width: 100px;
+    border: 1px solid black;
+    box-sizing: content-box;
+    padding: 5px;
+    width: 100px;
 }
 
 h2 {
-  font-size: 20px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: blue;
+}
+
+/* Unvisited links */
+a:visited {
+    color: purple;
+}
+
+/* Visited links */
+a:hover {
+    background: yellow;
+}
+
+/* Hovered links */
+a:active {
+    color: red;
+}
+
+/* Active links */
+p:active {
+    background: #eee;
+}
+
+/* Active paragraphs */
+/* img {
+    background-color: #f1d1d1;
+    border-style: dashed;
+    border-width: 3px;
+    box-sizing: border-box;
+} */
+/************************  Class Selector  *********************************/
+.heading {
+    color: #fa9191;
+}
+
+.bacon {
+    background-color: red;
+}
+
+.broccoli {
+    background-color: green;
+}
+
+.circular:hover {
+    border-radius: 50%;
 }
