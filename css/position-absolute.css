@@ -1,0 +1,23 @@
+.red {
+    background-color: red;
+    left: 208px;
+    position: absolute;
+    top: 208px;
+}
+
+.blue {
+    background-color: blue;
+    left: 108px;
+    position: absolute;
+    top: 108px;
+}
+
+.yellow {
+    background-color: yellow;
+    position: absolute;
+}
+
+.box-size {
+    height: 100px;
+    width: 100px;
+}
