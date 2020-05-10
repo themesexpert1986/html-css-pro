@@ -9,10 +9,17 @@ body {
     margin: 0;
 }
 
+.container {
+    background-color: grey;
+    height: 300px;
+    position: relative;
+    width: 300px;
+}
+
 .red {
     background-color: red;
-    left: 200px;
     position: absolute;
+    right: 0;
 }
 
 .blue {
